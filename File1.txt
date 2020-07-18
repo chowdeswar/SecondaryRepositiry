@@ -1,6 +1,5 @@
 I have an input which I want to get the text that it's currently got and send it to a method.
 Here is the code:
-
 app.component.html
 
 <input type="text" (keyup.enter)="sendit()" />
