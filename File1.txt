@@ -1,0 +1,13 @@
+I have an input which I want to get the text that it's currently got and send it to a method.
+
+Here is the code:
+
+app.component.html
+
+<input type="text" (keyup.enter)="sendit()" />
+app.component.ts
+
+sendit() {
+    console.log(The text in the input);
+}
+How do I do this?
